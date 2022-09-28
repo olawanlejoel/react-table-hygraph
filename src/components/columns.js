@@ -4,7 +4,7 @@ import FilterForm from './FilterForm';
 export const COLUMNS = [
 	{
 		Header: 'ID',
-		accessor: 'id_number',
+		accessor: 'idNumber',
 		Filter: FilterForm,
 	},
 	{

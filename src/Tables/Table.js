@@ -9,11 +9,11 @@ const Table = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			const { datasets } = await request(
-				'https://api-us-east-1.hygraph.com/v2/cl6o3qnz40n6401uje6140m78/master',
+				'https://api-us-east-1.hygraph.com/v2/cl8l7vo872fwv01tca4no0wwc/master',
 				`
                 {
                     datasets (first:50) {
-                        id_number
+                        idNumber
                         firstName
                         lastName
                         email
